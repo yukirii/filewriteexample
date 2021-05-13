@@ -1,0 +1,10 @@
+version: '3'
+services:
+  filewriteexample:
+    build: .
+    image: filewriteexample
+    container_name: filewriteexample
+    ports:
+      - 3000:3000
+    volumes:
+      - ./data:/usr/src/app/data

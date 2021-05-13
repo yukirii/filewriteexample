@@ -1,0 +1,6 @@
+# filewriteexample
+
+```
+docker-compose up
+```
+
