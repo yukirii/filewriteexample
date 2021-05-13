@@ -2,4 +2,8 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p #{content}
+
+  form(method="POST" action="/write")
+    textarea(name="content" placeholder="File content" required autofocus)
+    button(class=buttonClass type="submit") Save
