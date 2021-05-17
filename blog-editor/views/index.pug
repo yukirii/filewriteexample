@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div(id="layout")
+    div(id="test-editormd" style="float: left;")
+      textarea(id="md-textarea" style="display: none;")
+        | #{content}
+
+  script(src="javascripts/jquery.min.js")
+  script(src="javascripts/editormd.js")
+  script(src="javascripts/blog-editor.js")

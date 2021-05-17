@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+
+#layout {
+  height: 100%;
+}
+
+#preview-container {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
